@@ -736,7 +736,7 @@ color: var(--white-color);
   outline: transparent;
   color: var(--white-color);
   
-  transition: border-color 250ms;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-field:focus {
   border-color: var(--accent-color);
@@ -814,7 +814,7 @@ color: var(--white-color);
 .close-icon {
   fill: currentColor;
 
-  transition: fill 250ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal:hover{
@@ -854,7 +854,7 @@ border-color: var(--accent-color);
   height: 120px;
   resize: none;
 
-  transition: border-color 250ms;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment:focus {
   border-color: var(--accent-color);
@@ -873,7 +873,7 @@ border-color: var(--accent-color);
   padding-left: 42px;
   height: 40px;
 
-  transition: border-color 250ms;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-icon {
   position: absolute;
@@ -881,7 +881,7 @@ border-color: var(--accent-color);
   left: 12px;
   fill: #212121;
 
-  transition: fill 250ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .field:focus + .form-icon {
   fill: var(--accent-color);
